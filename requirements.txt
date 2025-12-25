@@ -1,0 +1,51 @@
+# ML Stock Scanner - Python Dependencies
+# Phase 2 + Phase 3 Requirements
+
+# Core Dependencies
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+loguru==0.7.2
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.4
+requests==2.31.0
+
+# Technical Analysis (Phase 2)
+pandas-ta==0.3.14b0
+ta-lib==0.4.28
+
+# ML Libraries (Phase 3)
+scikit-learn==1.4.0
+xgboost==2.0.3
+lightgbm==4.3.0
+catboost==1.2.2
+imbalanced-learn==0.12.0
+
+# Experiment Tracking (Phase 3)
+mlflow==2.10.0
+
+# Model Optimization (Phase 3)
+optuna==3.5.0
+
+# Visualization (Optional)
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Redis (Future Phase)
+redis==5.0.1
+
+# API (Future Phase)
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+celery==5.3.4

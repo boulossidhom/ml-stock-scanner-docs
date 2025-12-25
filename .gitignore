@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.local
+.env.production
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Data files (too large for Git)
+data/raw/
+data/processed/
+data/cache/
+*.parquet
+*.csv
+
+# ML Models (stored separately)
+data/models/*.joblib
+data/models/*.pkl
+data/models/*.h5
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Node (for web frontend)
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
